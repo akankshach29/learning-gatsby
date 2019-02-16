@@ -20,7 +20,8 @@
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
     "react-typography": "^0.16.18",
-    "typography": "^0.16.18"
+    "typography": "^0.16.18",
+    "typography-theme-kirkham": "^0.16.18"
   },
   "repository": {
     "type": "git",
