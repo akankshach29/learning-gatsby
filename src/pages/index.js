@@ -1,6 +1,6 @@
 import React from "react"
-import Link from "gatsby"
-import css from "graphql"
+import { Link, graphql } from "gatsby"
+import { css } from '@emotion/core'
 import Header from "../components/header"
 import Layout from "../components/layout"
 
@@ -9,14 +9,14 @@ export default () => (
     <div style={{ color: `purple` }}>
       <Header headerText="Amazing Pandas Eating Things" />
       <div>
-        <p>Read more here. 
+        <p> 
           <Link
             to={`/blog/`}
             css={css`
-              float: right;
+              marginLeft: '10px'
             `}
           >
-            Blog
+            Read more here. Blog.
           </Link>
         </p>
         <img

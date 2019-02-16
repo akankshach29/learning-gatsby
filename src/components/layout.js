@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
-import { jsx, css } from '@emotion/core'
+import { css } from '@emotion/core'
 
 
 export default ({ children }) => (

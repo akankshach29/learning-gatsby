@@ -29,6 +29,7 @@ export default ({ data }) => {
               <span
                 css={css`
                   color: #bbb;
+                  fontSize: 12px;
                 `}
               >
                 — {node.frontmatter.date}
@@ -44,7 +45,7 @@ export default ({ data }) => {
 
 export const query = graphql`
   query {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       totalCount
       edges {
         node {
