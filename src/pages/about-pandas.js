@@ -17,6 +17,16 @@ export default ({ data }) => (
     and shoots of various bamboo species. Bamboo contains very little 
     nutritional value so pandas must eat 12-38kg every day to meet their energy needs.
     </p>
+    <p>Read more here. 
+      <Link
+        to={`/blog/`}
+        css={css`
+          float: right;
+        `}
+      >
+        Blog
+      </Link>
+    </p>
   </Layout>
 )
 
